@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogApp</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <h1 class="app_title">Kartik's blog app</h1>
+    <h1 class="add_blog_button">Add Blog</h1>
+    <div class="container">
+        <div class="blog">
+            <h2 class="blog_title">First Blog</h2>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta itaque, quibusdam odio excepturi vel laborum iusto ex autem, veniam asperiores repellat voluptatibus id! Reprehenderit, aut iure error eius ab quaerat?</p>
+            <button class="update">update</button>
+            <button class="delete"><i class="far fa-trash-alt"></i></button>
+        </div>
+    </div>
+    <div class="backdrop">
+        <div class="add_blog">
+            <div class="top">
+                <h4>Add Blog</h4>
+                <button class="cross"><i class="fas fa-times"></i></button>
+            </div><br>
+            <form action="" method="post">
+                <label for="title">Blog title:</label><br>
+                <input type="text" name="title" class="title"><br>
+                <label for="description">Description:</label><br>
+                <input type="text" name="description" class="description_">
+                <button type="submit" class="post_blog">POST</button>
+                <button class="cancel">cancel</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
